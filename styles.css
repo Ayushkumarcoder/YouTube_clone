@@ -8,4 +8,30 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: #fff;
+}
+
+header {
+    background-color: #282828;
+    padding: 10px;
+}
+
+.video-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-player{
+    width: 70%;
+}
+
+.video-details {
+    width: 30%;
+    padding: 10px;
+}
+
+.sidebar{
+    width: 25px;
+    padding: 10px;
 }
