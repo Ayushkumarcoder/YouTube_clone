@@ -36,3 +36,34 @@ body{
     position: absolute;
     
 }
+
+.logo{
+    height: 30px;
+    margin: -10px 30px 0;
+}
+
+.user-options{
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+} 
+
+.user-options .icon {
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.user-dp{
+    height: 40px;
+    cursor: pointer;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-dp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
